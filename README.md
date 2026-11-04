@@ -7,7 +7,7 @@ Terraform module that creates an OCI Object Storage private endpoint, so buckets
 ```hcl
 module "object_storage_pe" {
   source  = "blissflow-tech/object-storage-pe/oci"
-  version = "~> 1.0"
+  version = "~> 1.1"
 
   compartment_id          = "ocid1.compartment.oc1..example"
   subnet_id               = "ocid1.subnet.oc1..example"
